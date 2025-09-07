@@ -1,0 +1,31 @@
+.our{
+   
+    font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow: 0 10px 10px ;
+margin-top: 20px;
+
+
+}
+a{
+    text-decoration: none;
+  
+}
+
+img{
+    margin-top: 5px;
+}
+
+.card img {
+    margin-left: 25%;
+    margin-top: 16x
+    
+}
+.doc{
+    color: aqua;
+}
+.card{
+    box-shadow: 0 10px 10px;
+    margin-left: 30px 30px;
+    
+}

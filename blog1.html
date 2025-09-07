@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+      <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+
+        body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+
+   .nav-item a{
+    font-size: 20px;
+    margin-left: 40px;
+
+   }
+   .dropdown-menu{
+    border: 3px solid white;
+    box-shadow: 0 5px 5px 5px white;
+    border: none;
+   }
+    .dropdown-menu a:hover{
+    background-color: aqua;
+    width: 80%;
+    box-shadow: 0 ;
+   }
+    .carousel-item img{
+    height: 630px; /* यहां अपनी जरूरत के हिसाब से height बदल सकते हैं */
+    width: 100%;
+  }
+  .h1 {
+    color: white;
+  }
+  .p{
+    color: white;
+  }
+  .cell{
+    
+    transition: all 0.10s ease-in-out;
+    background-color: white;
+  }
+  .cell:hover{
+   background-color: white;
+    transform: scale(1.2);
+   
+  }
+  .call{
+    box-shadow: 0 10px 10px 10px;
+    height: 170px;
+    border: 2px solid white;
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .call h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .call:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 10px 10px 10px;
+  }
+
+  .futter a{
+    font-size: 20px;
+  }
+  .hader{
+    margin-left: 20%;
+    padding: 10px;
+   color: red; 
+   font-size: 25px;
+  }
+  .hader:hover{
+    color: orange;
+    font-size: 30px;
+    text-shadow: 0 10px 10px ;}
+
+
+    .img{
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    h5{
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+
+    
+<!--hader section-->
+
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="guru hospital logo.jpg" alt=""  class="img-fluid" width="80px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">contact</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deprartments
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Advance pain clinie</a></li>
+            <li><a class="dropdown-item" href="#">Anaesthesia</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Cardiology</a></li>
+            <li><a class="dropdown-item" href="#">Critical Care</a></li>
+            <li><a class="dropdown-item" href="#">E.N.T.</a></li>
+            <li><a class="dropdown-item" href="#">Gastro medicine</a></li>
+            <li><a class="dropdown-item" href="#">Genral &Lapariscopic</a></li>
+            <li><a class="dropdown-item" href="#">Nephrology</a></li>
+            <li><a class="dropdown-item" href="#">Onco Surgery</a></li>
+            <li><a class="dropdown-item" href="#">Orthopaedics</a></li>
+            <li><a class="dropdown-item" href="#">Obsterics</a></li>
+            <li><a class="dropdown-item" href="#">plastic Surgery</a></li>
+            <li><a class="dropdown-item" href="#">pulmonary medical</a></li>
+            <li><a class="dropdown-item" href="#">Psychiatry</a></li>
+            <li><a class="dropdown-item" href="#">Radiology</a></li>
+            <li><a class="dropdown-item" href="#">Skin & VD</a></li>
+          </ul>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Doctors</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Insurances</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">login</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+    
+  </div>
+  
+</nav>
+</div></div></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h4 class="text-center bg-danger  m-0 p-0">Understanding PCOD : A comprehensive guide to symptoms, causes, and treatment</h4>
+
+            <img src="blog img-1.png" alt="" class="  img  img-fluid">
+            <p>Polycystic Ovary Syndrome (PCOD) is a prevalent health issue that impacts many women globally. This guide delves into the symptoms, underlying causes, and available treatments for PCOD, offering insights to help women take charge of their well-being.</p><br>
+            <h5>What is PCOD?</h5>
+            <p>PCOD is a hormonal condition marked by an imbalance of reproductive hormones. This often results in the formation of multiple small cysts on the ovaries, disrupting normal ovulation. Women with PCOD may experience irregular menstrual cycles, weight challenges, and other health concerns that can affect their quality of life.</p>
+
+
+            <h5>Recognizing the Symptoms of PCOD</h5>
+            <p>Early identification of PCOD symptoms is crucial for timely diagnosis and management. Common signs include:
+
+Irregular Menstrual Cycles: Infrequent or prolonged cycles, with fewer than nine periods annually.
+Excessive Hair Growth: Unwanted hair on the face, chest, or back due to elevated androgen levels, a condition known as hirsutism.
+Acne and Oily Skin: Hormonal imbalances often lead to acne outbreaks and skin issues.
+Weight Challenges: Struggles with weight gain or difficulty losing weight are common.
+Thinning Hair: Hair loss or thinning on the scalp.
+Skin Discoloration: Darkened skin patches, especially on the neck or underarms.</p>
+
+
+<h5>Understanding the Causes of PCOD</h5><br>
+<p>Genetics: A family history of PCOD increases susceptibility.
+Insulin Resistance: Many women with PCOD have insulin resistance, leading to elevated insulin levels and heightened androgen production.
+Obesity: Excess weight can exacerbate hormonal imbalances and worsen symptoms</p>
+<h5>Diagnosing PCOD</h5>
+<p>Diagnosis involves a thorough evaluation of medical history, physical examinations, and specific tests:</p>
+<li>Ultrasound: Detects multiple ovarian cysts.</li>
+<li>Hormonal Tests: Blood tests to assess hormone and insulin levels.</li>
+
+<h5>Managing PCOD: Treatment and Lifestyle Adjustments</h5><p>While there is no cure for PCOD, several strategies can effectively manage symptoms and improve overall health</p>
+
+
+<h5>Lifestyle Modifications</h5>
+<li>Weight Management: Losing even a small percentage of body weight can help regulate menstrual cycles and improve insulin sensitivity.
+Regular Physical Activity: Exercise aids in weight control and reduces insulin resistance.
+Balanced Diet: A nutritious diet rich in whole, unprocessed foods supports overall health and symptom management.</li>
+
+
+<h5>Medical Treatments</h5>
+
+<li>Hormonal Birth Control: Regulates menstrual cycles and reduces symptoms such as acne and excessive hair growth.</li>
+<li>Anti-Androgens: Medications like spironolactone target excessive androgen levels, alleviating hirsutism and acne</li>
+<li>Metformin: Improves insulin resistance and supports weight management, often enhancing ovulation.</li>
+
+
+<h5>Fertility Solutions</h5>
+<p>For those trying to conceive, fertility treatments are available:</p>
+
+<p>Ovulation Induction: Medications like clomiphene citrate stimulate ovulation.
+In Vitro Fertilization (IVF): Recommended when other treatments are unsuccessfu</p>
+
+<h5>Living with PCOD
+</h5>
+<p>Managing PCOD involves regular health check-ups, symptom monitoring, and adherence to treatment plans. Seeking professional advice and support from healthcare providers or support groups can make the journey easier.
+
+</p>
+<h5>Conclusion</h5>
+<p>PCOD is a common yet manageable condition. By understanding its symptoms, causes, and treatment options, women can take proactive steps toward better health. If you suspect PCOD, consult a healthcare professional for a tailored treatment approach. Remember, with the right support and knowledge, managing PCOD is entirely possible.</p>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid "  style="background-color: aqua;margin-top: 80px; margin-left: 0%;">
+  <div class="row">
+    <div class="col-sm-3">
+  <img src="guru hospital logo.jpg" alt="" width="35%"   class="img-fluid"   style="border-radius: 100%;"><br><br>
+  <p>Guru Hospital & Super Speciality Center in Lucknow is dedicated to providing comprehensive and compassionate care to patients from all walks of life.</p><br>
+  <a href="" class="hader">Rade More</a>
+    </div>
+    <div class="col-sm-3  text-left" style="margin-top: 30px;">
+   <h5  style="text-align: center;">Quick Links</h5><br>
+
+   <div class="futter">
+   <a href="">Home</a><br>
+   <a href="">Abouts</a><br>
+   <a href="">contact</a><br>
+   <a href="">Departments</a><br>
+   <a href="">blog</a><br>
+   <a href="">login</a></div>
+    </div>
+    <div class="col-sm-3"  style="margin-top: 30px;">
+
+   <h5>Contact us</h5><br>
+   <h6>Address:   Tahseenganj Crossing Hardoi Road Chowk, Lucknow, Uttar Pradesh 226003</h6>
+   <h6>Mobile no: +91 6958405433</h6>
+   <h6>Email-id:  prajapatu gurudee[12@gmail.com</h6>
+
+    </div>
+
+    <div class="col-sm-3"  style="margin-top: 30px;">
+        <h1>Search here</h1>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d455553.8253865651!2d80.900649!3d26.871288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfde33e8de67d%3A0xd3c92c8b20ada035!2sBrajraj%20Hospital%20and%20Test%20Tube%20Baby%20Centre%20-%20Best%20IVF%20Centre%20in%20Lucknow%20%7C%20Best%20Hospital%20in%20Chowk%20Lucknow%20%7C%7C%20IVF%20Centre%20%7C%7C!5e0!3m2!1sen!2sus!4v1755322472884!5m2!1sen!2sus" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+  </div>
+</div>
+
+
+<!--© 2024 Brajraj Hospital | Designed & Developed by VelocityTech-->
+
+
+
+
+<div class="container-fluid m-0 p-0">
+  <div class="row" >
+    <div class="col">
+
+   
+      <h4 style="background-color: black; color: white; margin-top: 1px;padding: 20px; text-align: center; margin: 0px;"> © 2024  Guru Hospital | Designed & Developed by VelocityTech</h4>
+</div>
+ </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>
